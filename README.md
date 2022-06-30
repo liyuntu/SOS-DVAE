@@ -13,9 +13,6 @@ We developed an interpretable and explainable probabilistic generative model tha
 The following picture demonstrates the relationship among the proposed models (SOS-VAE and SOS-DVAE, detailed in Section III), a generative model (VAE) and a predictive model (SVAE).  Blue indicates a model pursues a lower reconstruction error (better generative performance), and red denotes that a model pursues a higher predictive performance. Both VAE and SOS-VAE try to find latent representations that only use information in the proper generative model family, with SOS-VAE trying to find a representation that is good at prediction from within the model family.
 
 
-<p align="center">
-    <img src="img/sketch.png" width="500">
-</p>
 
 ## Tested environment
 Python 3.7.6</br>
