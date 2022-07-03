@@ -79,7 +79,7 @@ The following figure show the prediction performance against the KL-divergence o
 decoders. We can see that the proposed SOS-DVAE obtains higher predictive performance (ACC or AUC) for the same
 level of KL-divergence.
 <p align="center">
-    <img src="img/KL_curves_all.png" width="500">
+    <img src="img/KL_curves_all.png" width="1000">
 </p>
 
 
