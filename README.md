@@ -75,6 +75,14 @@ This dataset is currently in the preparation stage to make it public by the orig
 
 </details>
 
+The following figure show the prediction performance against the KL-divergence on all three datasets using MLP
+decoders. We can see that the proposed SOS-DVAE obtains higher predictive performance (ACC or AUC) for the same
+level of KL-divergence.
+<p align="center">
+    <img src="img/KL_curves_all.png" width="500">
+</p>
+
+
 ## Running the main training and evaluation scripts
 ```shell script
     export DATA_DIR=PATH_TO_DATA_DIR
